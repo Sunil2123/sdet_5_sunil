@@ -15,26 +15,26 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Base_Class 
 {
 	public   WebDriver driver;
-	public static WebDriver sdriver;
+	//public static WebDriver sdriver;
 	public Generic gen;
 	public  WebDriverUtils utils;
 
-	@BeforeSuite
+	@BeforeSuite(groups= {"smoke","regression","integration"})
 	public void beforeSuite()
 	{
 		System.out.println("connecting to DB");
 	}
-	@AfterSuite
+	@AfterSuite(groups = {"smoke","regression","integration"})
 	public void afterSuite()
 	{
 		System.out.println("close the DB connection");
 	}
-	// @Parameters("BROWSER")
-	@BeforeClass
-	public void beforeClass() throws Throwable
+	// @Parameters("browser")
+	@BeforeClass(groups= {"smoke","regression","integration"})
+	public void beforeClass() throws Throwable 
 	{
 		gen=new Generic(); 
-		String browser = gen.dataDriven("browser");
+		String browser = gen.dataDriven("BROWSER");
 		if (browser.equals("chrome")) 
 		{
 			WebDriverManager.chromedriver().setup();
@@ -51,19 +51,19 @@ public class Base_Class
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 		}
-		sdriver=driver;	
+		//sdriver=driver;	
 
 		utils=new WebDriverUtils(driver);
 
 	}
-	@AfterClass
+	@AfterClass(groups= {"smoke","regression","integration"})
 	private void afterClass() 
 	{
 
 		utils.closebrowser();	
 
 	}
-	@BeforeMethod
+	@BeforeMethod(groups= {"smoke","regression","integration"})
 	public void login() throws Throwable
 	{
 		Login_Page lp=new Login_Page(driver);
@@ -72,7 +72,7 @@ public class Base_Class
 		utils.maximize();
 		lp.loginapp();	
 	}
-	@AfterMethod
+	@AfterMethod(groups= {"smoke","regression","integration"})
 	public void logout()
 	{
 		Home_Page hp=new Home_Page(driver);

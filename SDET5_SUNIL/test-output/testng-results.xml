@@ -1,40 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55021" started-at="2022-04-18T17:44:52 IST" finished-at="2022-04-18T17:45:47 IST">
+  <suite name="Suite" duration-ms="83328" started-at="2022-04-18T22:23:40 IST" finished-at="2022-04-18T22:25:04 IST">
     <groups>
       <group name="regression">
-        <method signature="Delete_Create_Org_Test.createorg()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="createorg" class="com.pomclass.testcases.Delete_Create_Org_Test"/>
+        <method signature="Create_Org_Name1.create_org1()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@462d5aee]" name="create_org1" class="com.pomclass.testcases.Create_Org_Name1"/>
+        <method signature="Delete_Create_Org_Test.createorg()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@612679d6]" name="createorg" class="com.pomclass.testcases.Delete_Create_Org_Test"/>
       </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Create_Org_Name1.create_org()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@462d5aee]" name="create_org" class="com.pomclass.testcases.Create_Org_Name1"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="55021" started-at="2022-04-18T17:44:52 IST" finished-at="2022-04-18T17:45:47 IST">
+    <test name="Test" duration-ms="83328" started-at="2022-04-18T22:23:40 IST" finished-at="2022-04-18T22:25:04 IST">
       <class name="com.pomclass.testcases.Delete_Create_Org_Test">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2022-04-18T17:44:52 IST" finished-at="2022-04-18T17:44:52 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@612679d6]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2022-04-18T22:23:40 IST" finished-at="2022-04-18T22:23:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="beforeClass" is-config="true" duration-ms="8146" started-at="2022-04-18T17:44:52 IST" finished-at="2022-04-18T17:45:00 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@612679d6]" name="beforeClass" is-config="true" duration-ms="4113" started-at="2022-04-18T22:23:40 IST" finished-at="2022-04-18T22:23:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="login" is-config="true" duration-ms="12402" started-at="2022-04-18T17:45:00 IST" finished-at="2022-04-18T17:45:13 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@612679d6]" name="login" is-config="true" duration-ms="4606" started-at="2022-04-18T22:23:45 IST" finished-at="2022-04-18T22:23:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="createorg()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="createorg" duration-ms="32416" started-at="2022-04-18T17:45:13 IST" finished-at="2022-04-18T17:45:45 IST">
+        <test-method status="PASS" signature="createorg()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@612679d6]" name="createorg" duration-ms="22595" started-at="2022-04-18T22:23:49 IST" finished-at="2022-04-18T22:24:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createorg -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="logout" is-config="true" duration-ms="1988" started-at="2022-04-18T17:45:45 IST" finished-at="2022-04-18T17:45:47 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@612679d6]" name="logout" is-config="true" duration-ms="1834" started-at="2022-04-18T22:24:12 IST" finished-at="2022-04-18T22:24:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-04-18T17:45:47 IST" finished-at="2022-04-18T17:45:47 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@612679d6]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-04-18T22:25:04 IST" finished-at="2022-04-18T22:25:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.pomclass.testcases.Delete_Create_Org_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.pomclass.testcases.Create_Org_Name1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@462d5aee]" name="beforeClass" is-config="true" duration-ms="3702" started-at="2022-04-18T22:24:14 IST" finished-at="2022-04-18T22:24:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@462d5aee]" name="login" is-config="true" duration-ms="4186" started-at="2022-04-18T22:24:17 IST" finished-at="2022-04-18T22:24:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="create_org()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@462d5aee]" name="create_org" duration-ms="17744" started-at="2022-04-18T22:24:22 IST" finished-at="2022-04-18T22:24:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_org -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@462d5aee]" name="logout" is-config="true" duration-ms="2545" started-at="2022-04-18T22:24:39 IST" finished-at="2022-04-18T22:24:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@462d5aee]" name="login" is-config="true" duration-ms="3496" started-at="2022-04-18T22:24:42 IST" finished-at="2022-04-18T22:24:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="create_org1()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@462d5aee]" name="create_org1" duration-ms="16689" started-at="2022-04-18T22:24:45 IST" finished-at="2022-04-18T22:25:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_org1 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@462d5aee]" name="logout" is-config="true" duration-ms="1748" started-at="2022-04-18T22:25:02 IST" finished-at="2022-04-18T22:25:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.pomclass.testcases.Create_Org_Name1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
