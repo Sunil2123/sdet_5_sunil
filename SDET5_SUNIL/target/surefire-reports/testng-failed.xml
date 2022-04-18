@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.pomclass.testcases.Delete_Create_Org_Test">
+        <methods>
+          <include name="login"/>
+          <include name="beforeSuite"/>
+          <include name="createorg1"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.pomclass.testcases.Delete_Create_Org_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

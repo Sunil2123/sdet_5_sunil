@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55021" started-at="2022-04-18T17:44:52 IST" finished-at="2022-04-18T17:45:47 IST">
+    <groups>
+      <group name="regression">
+        <method signature="Delete_Create_Org_Test.createorg()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="createorg" class="com.pomclass.testcases.Delete_Create_Org_Test"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Default test" duration-ms="55021" started-at="2022-04-18T17:44:52 IST" finished-at="2022-04-18T17:45:47 IST">
+      <class name="com.pomclass.testcases.Delete_Create_Org_Test">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2022-04-18T17:44:52 IST" finished-at="2022-04-18T17:44:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="beforeClass" is-config="true" duration-ms="8146" started-at="2022-04-18T17:44:52 IST" finished-at="2022-04-18T17:45:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="login" is-config="true" duration-ms="12402" started-at="2022-04-18T17:45:00 IST" finished-at="2022-04-18T17:45:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createorg()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="createorg" duration-ms="32416" started-at="2022-04-18T17:45:13 IST" finished-at="2022-04-18T17:45:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorg -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="logout" is-config="true" duration-ms="1988" started-at="2022-04-18T17:45:45 IST" finished-at="2022-04-18T17:45:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@76a3e297]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-04-18T17:45:47 IST" finished-at="2022-04-18T17:45:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.pomclass.testcases.Delete_Create_Org_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
