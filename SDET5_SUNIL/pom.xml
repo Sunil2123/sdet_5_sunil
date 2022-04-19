@@ -55,7 +55,7 @@
 					<version>3.0.0-M6</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>testnggroup.xml</suiteXmlFile>
+							<suiteXmlFile>testngparallel.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
