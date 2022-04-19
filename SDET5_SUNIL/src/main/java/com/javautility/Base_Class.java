@@ -15,7 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Base_Class 
 {
 	public   WebDriver driver;
-	//public static WebDriver sdriver;
+	public static WebDriver sdriver;
 	public Generic gen;
 	public  WebDriverUtils utils;
 
@@ -51,7 +51,7 @@ public class Base_Class
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 		}
-		//sdriver=driver;	
+		sdriver=driver;	
 
 		utils=new WebDriverUtils(driver);
 
