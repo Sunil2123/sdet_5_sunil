@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="63634" started-at="2022-04-19T05:04:13Z" finished-at="2022-04-19T05:05:17Z">
+  <suite name="Suite" duration-ms="94911" started-at="2022-04-19T09:15:34Z" finished-at="2022-04-19T09:17:09Z">
     <groups>
       <group name="regression">
         <method signature="Delete_Create_Org_Test.createorg()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="createorg" class="com.pomclass.testcases.Delete_Create_Org_Test"/>
@@ -15,133 +15,77 @@
         <method signature="Create_Org_Name1.create_org()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="create_org" class="com.pomclass.testcases.Create_Org_Name1"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test2" duration-ms="60051" started-at="2022-04-19T05:04:13Z" finished-at="2022-04-19T05:05:13Z">
-      <class name="com.pomclass.testcases.Create_Org_Name1">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2022-04-19T05:04:13Z" finished-at="2022-04-19T05:04:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="beforeClass" is-config="true" duration-ms="3629" started-at="2022-04-19T05:04:13Z" finished-at="2022-04-19T05:04:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="login" is-config="true" duration-ms="6513" started-at="2022-04-19T05:04:17Z" finished-at="2022-04-19T05:04:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="create_org()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="create_org" duration-ms="25395" started-at="2022-04-19T05:04:23Z" finished-at="2022-04-19T05:04:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- create_org -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="logout" is-config="true" duration-ms="2442" started-at="2022-04-19T05:04:49Z" finished-at="2022-04-19T05:04:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="login" is-config="true" duration-ms="3824" started-at="2022-04-19T05:04:51Z" finished-at="2022-04-19T05:04:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="FAIL" signature="create_org1()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="create_org1" duration-ms="16484" started-at="2022-04-19T05:04:55Z" finished-at="2022-04-19T05:05:12Z">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : Organization Name Already Exists!}
-  (Session info: chrome=100.0.4896.127): Organization Name Already Exists!
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-EMG1SG7', ip: '192.168.14.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63042}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 29ae94eadd4ccd97aa57c55021213530
-*** Element info: {Using=xpath, value=//a[text()='Organizations']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Organization Name Already Exists!}
-  (Session info: chrome=100.0.4896.127): Organization Name Already Exists!
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-EMG1SG7', ip: '192.168.14.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63042}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 29ae94eadd4ccd97aa57c55021213530
-*** Element info: {Using=xpath, value=//a[text()='Organizations']}
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy11.click(Unknown Source)
-at com.pomclass.testcases.Create_Org_Name1.create_org1(Create_Org_Name1.java:60)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- create_org1 -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="logout" is-config="true" duration-ms="1712" started-at="2022-04-19T05:05:12Z" finished-at="2022-04-19T05:05:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-04-19T05:05:17Z" finished-at="2022-04-19T05:05:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.pomclass.testcases.Create_Org_Name1 -->
-    </test> <!-- Test2 -->
-    <test name="Test1" duration-ms="63634" started-at="2022-04-19T05:04:13Z" finished-at="2022-04-19T05:05:17Z">
+    <test name="Test1" duration-ms="94632" started-at="2022-04-19T09:15:34Z" finished-at="2022-04-19T09:17:09Z">
       <class name="com.pomclass.testcases.Delete_Create_Org_Test">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="beforeClass" is-config="true" duration-ms="3658" started-at="2022-04-19T05:04:13Z" finished-at="2022-04-19T05:04:17Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="beforeClass" is-config="true" duration-ms="5678" started-at="2022-04-19T09:15:34Z" finished-at="2022-04-19T09:15:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="login" is-config="true" duration-ms="6638" started-at="2022-04-19T05:04:17Z" finished-at="2022-04-19T05:04:24Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="login" is-config="true" duration-ms="15403" started-at="2022-04-19T09:15:40Z" finished-at="2022-04-19T09:15:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="createorg()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="createorg" duration-ms="29681" started-at="2022-04-19T05:04:24Z" finished-at="2022-04-19T05:04:53Z">
+        <test-method status="PASS" signature="createorg()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="createorg" duration-ms="43161" started-at="2022-04-19T09:15:55Z" finished-at="2022-04-19T09:16:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createorg -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="logout" is-config="true" duration-ms="1855" started-at="2022-04-19T05:04:53Z" finished-at="2022-04-19T05:04:55Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="logout" is-config="true" duration-ms="3566" started-at="2022-04-19T09:16:38Z" finished-at="2022-04-19T09:16:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="login" is-config="true" duration-ms="5081" started-at="2022-04-19T05:04:55Z" finished-at="2022-04-19T05:05:00Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="login" is-config="true" duration-ms="9273" started-at="2022-04-19T09:16:42Z" finished-at="2022-04-19T09:16:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="createorg1()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="createorg1" duration-ms="14653" started-at="2022-04-19T05:05:00Z" finished-at="2022-04-19T05:05:15Z">
+        <test-method status="PASS" signature="createorg1()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="createorg1" duration-ms="15003" started-at="2022-04-19T09:16:51Z" finished-at="2022-04-19T09:17:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createorg1 -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="logout" is-config="true" duration-ms="2056" started-at="2022-04-19T05:05:15Z" finished-at="2022-04-19T05:05:17Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Delete_Create_Org_Test@222114ba]" name="logout" is-config="true" duration-ms="2507" started-at="2022-04-19T09:17:06Z" finished-at="2022-04-19T09:17:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.pomclass.testcases.Delete_Create_Org_Test -->
     </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="94911" started-at="2022-04-19T09:15:34Z" finished-at="2022-04-19T09:17:09Z">
+      <class name="com.pomclass.testcases.Create_Org_Name1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2022-04-19T09:15:34Z" finished-at="2022-04-19T09:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="beforeClass" is-config="true" duration-ms="5721" started-at="2022-04-19T09:15:34Z" finished-at="2022-04-19T09:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="login" is-config="true" duration-ms="15133" started-at="2022-04-19T09:15:40Z" finished-at="2022-04-19T09:15:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="create_org()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="create_org" duration-ms="36363" started-at="2022-04-19T09:15:55Z" finished-at="2022-04-19T09:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_org -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="logout" is-config="true" duration-ms="4321" started-at="2022-04-19T09:16:31Z" finished-at="2022-04-19T09:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="login" is-config="true" duration-ms="6762" started-at="2022-04-19T09:16:36Z" finished-at="2022-04-19T09:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="create_org1()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="create_org1" duration-ms="23955" started-at="2022-04-19T09:16:42Z" finished-at="2022-04-19T09:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_org1 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="logout" is-config="true" duration-ms="2645" started-at="2022-04-19T09:17:06Z" finished-at="2022-04-19T09:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.pomclass.testcases.Create_Org_Name1@45b9a632]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-04-19T09:17:09Z" finished-at="2022-04-19T09:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.pomclass.testcases.Create_Org_Name1 -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>
